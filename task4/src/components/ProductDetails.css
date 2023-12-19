@@ -1,0 +1,14 @@
+.product-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-details-info {
+    max-width: 200px;
+}
+
+.product-details img {
+    max-width: 100%;
+    border-radius: 8px;
+}
