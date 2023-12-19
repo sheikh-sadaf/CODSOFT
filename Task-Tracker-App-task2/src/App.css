@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f3f5;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #8f228f;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button.add-task {
+  background-color: #2ecc71;
+  color: #ffffff;
+  border-color: #27ae60;
+}
+
+button.add-task:hover {
+  background-color: #27ae60;
+}
+
+button.edit-task {
+  background-color: #649fc7;
+  color: #ffffff;
+  border-color: #53778f;
+}
+
+button.edit-task:hover {
+  background-color: #19bb34;
+}
+
+button.delete-task {
+  background-color: #784b45;
+  color: #ffffff;
+  border-color: #c0392b;
+}
+
+button.delete-task:hover {
+  background-color: #c0392b;
+}
+
+button.toggle-complete {
+  background-color: #f39c12;
+  color: #ffffff;
+  border-color: #d35400;
+}
+
+button.toggle-complete:hover {
+  background-color: #d35400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #3e889b;
+  background-color: #7bbccd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+}
+
+li input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  margin-right: 8px;
+}
